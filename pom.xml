@@ -62,7 +62,7 @@
         <jaxb.version>2.2.11</jaxb.version>
         <jflex.version>1.6.1</jflex.version>
         <jopt-simple.version>4.8</jopt-simple.version>
-        <jsoup.version>1.11.2</jsoup.version>
+        <jsoup.version>1.13.1</jsoup.version>
         <junit.version>4.12</junit.version>
         <jetty.version>9.4.24.v20191120</jetty.version>
         <!-- TODO: [ES] update Jersey to 2.16 (creates unmarshalling problems with crowd) -->
@@ -752,7 +752,7 @@
                 <artifactId>gmaven-plugin</artifactId>
                 <version>1.4</version>
                 <configuration>
-                    <source />
+                    <source/>
                     <providerSelection>1.8</providerSelection>
                     <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
                 </configuration>
