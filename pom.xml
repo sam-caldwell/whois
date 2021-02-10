@@ -66,7 +66,7 @@
         <junit.version>4.12</junit.version>
         <jetty.version>9.4.24.v20191120</jetty.version>
         <!-- TODO: [ES] update Jersey to 2.16 (creates unmarshalling problems with crowd) -->
-        <jersey.version>2.12</jersey.version>
+        <jersey.version>2.33</jersey.version>
         <jackson.version>2.9.10</jackson.version>
 
         <!-- TODO: [ES] apache-log4j-extras 1.2.17 duplicates classes from log4, causing warnings from surefire -->
@@ -752,7 +752,7 @@
                 <artifactId>gmaven-plugin</artifactId>
                 <version>1.4</version>
                 <configuration>
-                    <source />
+                    <source/>
                     <providerSelection>1.8</providerSelection>
                     <sourceEncoding>${project.build.sourceEncoding}</sourceEncoding>
                 </configuration>
